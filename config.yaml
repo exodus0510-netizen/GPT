@@ -1,0 +1,16 @@
+# Korean stock names to monitor on Naver News Search API.
+stocks:
+  - 삼성전자
+  - SK하이닉스
+  - LG에너지솔루션
+
+# Optional: override poll interval (seconds). Defaults to 60 in code.
+poll_interval_seconds: 60
+
+# Optional: how many recent items to request per stock query (1-100).
+news_page_size: 20
+
+# Enable/disable AI summarization using OpenAI Responses API.
+ai_summarization:
+  enabled: false
+  model: gpt-4.1-mini
